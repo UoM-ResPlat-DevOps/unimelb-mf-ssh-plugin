@@ -6,7 +6,7 @@ import io.github.xtman.ssh.client.ScpClient;
 
 public class ScpSink extends SshSink {
 
-    public static final String TYPE_NAME = "unimelb-scp";
+    public static final String TYPE_NAME = "scp";
 
     public ScpSink() throws Throwable {
         super(TYPE_NAME);

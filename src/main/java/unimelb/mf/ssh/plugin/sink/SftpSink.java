@@ -6,7 +6,7 @@ import io.github.xtman.ssh.client.SftpClient;
 
 public class SftpSink extends SshSink {
 
-    public static final String TYPE_NAME = "unimelb-sftp";
+    public static final String TYPE_NAME = "sftp";
 
     public SftpSink() throws Throwable {
         super(TYPE_NAME);
